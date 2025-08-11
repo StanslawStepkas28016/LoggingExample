@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogApp", "SerilogApp\SerilogApp.csproj", "{97E498C6-4A89-4E81-BF73-D24109560F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogApp", "NLogApp\NLogApp.csproj", "{FA9C6080-6499-434E-BBB5-A655AB6599DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E498C6-4A89-4E81-BF73-D24109560F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E498C6-4A89-4E81-BF73-D24109560F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E498C6-4A89-4E81-BF73-D24109560F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E498C6-4A89-4E81-BF73-D24109560F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9C6080-6499-434E-BBB5-A655AB6599DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9C6080-6499-434E-BBB5-A655AB6599DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9C6080-6499-434E-BBB5-A655AB6599DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9C6080-6499-434E-BBB5-A655AB6599DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
