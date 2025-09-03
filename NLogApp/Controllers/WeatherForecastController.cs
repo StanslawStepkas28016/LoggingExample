@@ -21,11 +21,11 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    public Task<IActionResult> Get()
     {
         _logger.LogInformation("Example log using Nlog");
-        
-        return Enumerable.Range(1, 5).Select
+
+        WeatherForecast[] weatherForecasts = Enumerable.Range(1, 5).Select
             (index => new WeatherForecast
                 {
                     Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -34,5 +34,8 @@ public class WeatherForecastController : ControllerBase
                 }
             )
             .ToArray();
+        
+
+        return Task.FromResult<IActionResult>(Ok(weatherForecasts));
     }
 }
